@@ -1,0 +1,92 @@
+.register-container {
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* Fundo turvo */
+    backdrop-filter: blur(10px) brigthness(0.8);
+}
+
+/* Card do formulário */
+.register-card {
+    background: rgba(255, 255, 255, 0.75); 
+    padding: 30px;
+    border-radius: 12px;
+    width: 450px;
+    backdrop-filter: blur(10px); 
+}
+
+.register-card h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.input-group {
+    margin-bottom: 18px;
+}
+
+.input-group label {
+    font-weight: 500;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    background: rgba(255, 255, 255, 0.85);
+}
+
+/* Grelha para 2 colunas */
+.form-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+/* Campos que ocupam largura total */
+.form-full {
+    grid-column: span 2;
+}
+
+/* Aumentar ainda mais o campo de documento */
+.input-group.form-full input {
+    width: 100%;
+    padding: 14px;
+    font-size: 17px;
+}
+
+.primary-btn {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background: #1020c9;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.secondary-btn {
+    color: #ffffff;
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.redirect-text {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 0.9rem;
+}
+

@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* O seu CSS global, como os estilos para o body */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif; /* Certifique-se de que esta linha está presente se quiser uma fonte padrão */
+  background: #f3f4f6;
+}
+
+/*.container { display:flex; align-items:center; justify-content:center; min-height:100vh; }*/
+.card { background:#fff; padding:24px; border-radius:8px; box-shadow:0 6px 18px rgba(0,0,0,0.08); width:380px; }
+.btn { padding:8px 12px; border-radius:6px; cursor:pointer; }
+.btn-primary { background:#2563eb; color:white; border:none; }
+.btn-secondary { background:#e5e7eb; border:none; }
